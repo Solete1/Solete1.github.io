@@ -1,0 +1,94 @@
+.logo-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-family:Chalkduster;
+    color: rgba(89, 3, 115, 0.282);
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+}
+
+.topnav a:hover{
+    background-color:yellow;
+    color:rgb(170, 0, 255);
+}
+
+.topnav a.active{
+    background-color: pink;
+}
+
+.topnav {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container{
+    background-color: rgb(242, 178, 242);
+    border: 1px solid yellow;
+    padding: 10px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.subheading{
+    font-family: Impact, Haettenschweiler;
+    font-size: 20px;
+    color:#410562;
+    margin:5px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+body{
+    color:purple; 
+    margin-top: 15px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+#country-select{
+    color: purple;
+    border-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.margin-images{
+    margin-top: 10px; 
+    margin-right: 5px;
+    display: flex;
+    align-items:baseline;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.size-image{
+    height: 40px;
+    align-items:stretch; 
+}
+
+.text-box{
+    border-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    align-self: flex-start;
+}
+
+ 
